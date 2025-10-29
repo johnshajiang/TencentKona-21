@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2025, Oracle and/or its affiliates. All rights reserved.
- * Copyright (C) 2025 THL A29 Limited, a Tencent company. All rights reserved.
+ * Copyright (C) 2025, Tencent. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
  * This code is free software; you can redistribute it and/or modify it
@@ -86,4 +86,3 @@ public class TestG1CompressedOops {
     checkG1CompressedOops(new String[] { "-Xmx32256m", "-XX:G1HeapRegionSize=512m" }, true, 0);
   }
 }
-
